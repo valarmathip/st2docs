@@ -23,7 +23,7 @@ RUN chown -Rf root.root /etc/httpd/conf/httpd.conf
 RUN chmod -R 644 /etc/httpd/conf/httpd.conf
 
 RUN mkdir /home/version/ 
-RUN echo "Test version v_1" > /home/version/version.txt
+RUN echo "Test version v1" > /home/version/version.txt
 RUN mkdir -p /var/www/html/app
 RUN chown -Rf appadmin.appadmin /var/www/html/app
 RUN chmod -R 755 /var/www/html/app
